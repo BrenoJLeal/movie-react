@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import {BiCameraMovie, BiSearchAlt2} from 'react-icons/bi';
-import "./Navbar.css"
+import "./NavBar.css"
 import { useState } from 'react';
 const NavBar = () => {
     
