@@ -15,6 +15,7 @@
     max-width: 100%;
     margin: 0 auto;
 }
+
 .movies_container div{
     width: 30%;
     color: #fff;
@@ -25,6 +26,17 @@
     background-color: #111;
     padding: 1rem;
     border-radius: 4px;
+}
+@media (max-width:  768px) {
+    .movies_container div {
+        width:  50%; 
+    }
+}
+
+@media (max-width:  500px) {
+    .movies_container div {
+        width:  100%;
+    }
 }
 .movies_container div img{
     max-width: 100%;

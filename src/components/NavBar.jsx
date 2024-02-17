@@ -14,8 +14,6 @@ const NavBar = () => {
         setSearch("");
     }
 
-
-
     return ( 
         <>
         <nav id='navbar'>
