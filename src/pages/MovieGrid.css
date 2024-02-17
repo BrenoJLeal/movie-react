@@ -18,6 +18,7 @@
 
 .movies_container div{
     width: 30%;
+    border-right: 4px solid #000;
     color: #fff;
     margin-bottom: 2.5rem;
     display: flex;
@@ -27,9 +28,14 @@
     padding: 1rem;
     border-radius: 4px;
 }
-@media (max-width:  768px) {
+@media (max-width:  767px) {
+
     .movies_container div {
         width:  50%; 
+        
+        border-radius: 0px 4px 4px 0px ;
+        
+
     }
 }
 
@@ -40,6 +46,8 @@
 }
 .movies_container div img{
     max-width: 100%;
+    
+    
 }
 .movies_container div img,
 .movies_container div h2, 
@@ -48,14 +56,7 @@
 }
 .movies_container div h2 {
     text-align: center;
-    font-size:  24px; /* tamanho padrão de fonte */
-}
-
-@media (max-width:  500px) {
-    .movies_container div h2 {
-        text-align: center;
-        font-size:  15px; /* tamanho de fonte menor para telas menores que  500px */
-    }
+    font-size:  24px; 
 }
 
 .movies_container div svg{
@@ -76,10 +77,17 @@
 }
 @media (max-width:  500px) {
     .movies_container div a {
-        font-size:  14px; /* Tamanho de fonte menor para telas menores que  500px */
+        font-size:  14px; 
     }
+
 }
 .movies_container div a:hover{
     background-color: transparent;
     color: #f7d354;
+    transform: scale(1.05); /* Efeito de zoom no hover */
+    box-shadow:  0  8px  12px rgba(0,  0,  0,  0.2); /* Aumentar sombra no hover */
 }
+
+
+
+
