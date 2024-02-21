@@ -17,6 +17,7 @@
     }
     #navbar h2{
         display: flex;
+        font-size: 35px;
         width: 100%;
         justify-content: center;
     }
